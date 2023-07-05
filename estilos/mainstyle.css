@@ -2,12 +2,121 @@
 * {
 margin: 0px;  
 padding: 0px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 body {
-background-color: #5F2C82 ;  
+background-color: #5F2C82 ; 
+margin-top: 100px;
+}
+
+main {
+margin: auto;
+border-radius: 10px;
+width: 250px; 
 }
 
 div#imagem {
-background-color: white;  
+margin: auto;
+background-image: url('../Imagens/metal.jpg');
+background-position: center;
+background-size: cover;
+height: 210px;
+border-radius: 15px 15px 0px 0px;
 }
+
+div#form {
+
+background-color: #F4F5F7;
+border-radius: 0px 0px 15px 15px;
+height: 315px;
+}
+
+div#form h1 {
+ text-align: center;  
+ color: #53AAA7;
+ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.383);
+ } 
+ 
+div#form p {
+
+ padding: 10px 7px 0px 10px; 
+ font-size: 0.9em;
+ }
+
+div#login {
+ padding-top: 10px;
+ position: relative;
+ left: 10px;
+ width: 233px;
+}
+
+input#email,#senha {
+
+border-style: unset;
+border: 2px solid #5F2C82;
+border-radius: 10px;
+width: 197px;
+height: 2.5em;
+background-color: #94CFCD;
+position: relative;
+bottom: 0.5px;
+}
+
+hr {
+height: 6px;
+width: 0px;
+color: #F4F5F7;
+border: none;
+}
+
+.enfeites {
+background-color: #5F2C82;
+width: 230px;
+border-radius: 10px;
+}
+
+span {
+color: white;
+position: relative; 
+top: 7px;
+left: 2px;
+}
+
+input#entrar {
+background-color: #53AAA7;
+color: white;
+width: 230px;
+height: 40px;
+border: none;
+border-radius: 5px;
+display: block;
+margin: auto;
+}
+
+input#entrar:hover {
+background-color: #2D6462;  
+}
+
+ p#esqueci {
+  text-align: center;
+  color: #53AAA7;
+  background-color: rgb(255, 255, 255);
+
+  width: 210px;
+  height: 30px;
+  border: 1px solid #53AAA7;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  p#esqueci:hover {
+  background-color: #6CD3CF;  
+  border: 1px solid #6CD3CF;
+  color: white;
+  }

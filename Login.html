@@ -6,34 +6,49 @@
   <title>Document</title>
 
   <link rel="stylesheet" href="estilos/mainstyle.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,1,0" />
 </head>
 <body>
 
-<div id="branca">
+ <main>
 
-
-</div>
-
-<div id="imagem">
-
- <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-
- <form method="post">
+   <div id="imagem">
   
-  <input type="email" autocomplete="email" required  placeholder="Seu e-mail">
-  <br>
-  <input type="password" autocomplete="current-password" minlength="8" required placeholder="Sua senha">
-  <br>
-  <input type="submit" value="Entrar"> 
-  <br>
-  <input type="url" value="Esqueci minha senha">
-
- </form>
+   
+   </div>
 
 
+   <div id="form">
+     <h1>Login</h1>
+     <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+     
+     <form method="post">
+      
+      <div id="login">
 
-</div>
-</form>
+        <div class="enfeites">
+         <span id=simbolos class="material-symbols-sharp">person</span>  
+         <input type="email" id="email" name="email" autocomplete="email" required  placeholder="Seu e-mail">
+        </div>
+      <hr>
+        <div class="enfeites">
+          <span id=simbolos2 class="material-symbols-sharp">vpn_key</span>
+          <input type="password" id="senha" name="senha" autocomplete="current-password" minlength="8" required placeholder="Sua senha">
+        </div>
+        
+      </div>
+      <hr>
+      <input type="submit" value="Entrar" id="entrar">
+      <hr>
+      <a href="#">
+        <p id="esqueci">Esqueci minha senha</p>
+      </a>
+
+     </form>
+   </div>
+
+ </main>
   
 </body>
 </html>
