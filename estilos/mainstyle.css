@@ -1,122 +1,144 @@
 
 * {
-margin: 0px;  
-padding: 0px;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ margin: 0px;  
+ padding: 0px;
+}
+
+html {
+height: 100vh; 
+width: 100vw; 
 }
 
 body {
-background-color: #5F2C82 ; 
-margin-top: 100px;
+ background-color: #5F2C82; 
 }
 
 main {
-margin: auto;
-border-radius: 10px;
-width: 250px; 
+ border-radius: 10px;
+
+ width: 250px; 
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 div#imagem {
-margin: auto;
-background-image: url('../Imagens/metal.jpg');
-background-position: center;
-background-size: cover;
-height: 210px;
-border-radius: 15px 15px 0px 0px;
+ background-image: url('../Imagens/metal.jpg');
+ background-position: bottom center;
+ background-size: cover;
+ border-radius: 15px 15px 0px 0px;
+
+ height: 210px;
+
+ margin: auto;
 }
 
 div#form {
+ background-color: white;
+ border-radius: 0px 0px 15px 15px;
 
-background-color: #F4F5F7;
-border-radius: 0px 0px 15px 15px;
-height: 315px;
+ height: 300px;
 }
 
 div#form h1 {
  text-align: center;  
  color: #53AAA7;
  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.383);
- } 
+} 
  
-div#form p {
+div#form p#boasvindas {
+ font-size: 0.8em;
 
  padding: 10px 7px 0px 10px; 
- font-size: 0.9em;
  }
 
 div#login {
+ width: 92%; 
  padding-top: 10px;
  position: relative;
  left: 10px;
- width: 233px;
 }
 
 input#email,#senha {
 
-border-style: unset;
-border: 2px solid #5F2C82;
-border-radius: 10px;
-width: 197px;
-height: 2.5em;
-background-color: #94CFCD;
-position: relative;
-bottom: 0.5px;
+ background-color: #94CFCD;
+ border-style: unset;
+ border: 2px solid #5F2C82;
+ border-radius: 10px;
+
+ width: 86%;
+ height: 2.5em;
+
+ position: relative;
+ bottom: 0.5px;
 }
 
 hr {
-height: 6px;
-width: 0px;
-color: #F4F5F7;
-border: none;
+ color: #F4F5F7;
+ border: none;
+ height: 6px;
+ width: 0px;
 }
 
 .enfeites {
-background-color: #5F2C82;
-width: 230px;
-border-radius: 10px;
+ background-color: #5F2C82;
+ border-radius: 10px;
 }
 
 span {
-color: white;
-position: relative; 
-top: 7px;
-left: 2px;
+  color: white;
+ 
+  position: relative; 
+  top: 7px;
+  left: 2px;
 }
 
 input#entrar {
-background-color: #53AAA7;
-color: white;
-width: 230px;
-height: 40px;
-border: none;
-border-radius: 5px;
-display: block;
-margin: auto;
+ background-color: #53AAA7;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ 
+
+ width: 92%;
+ height: 40px;
+
+ display: block;
+ margin: auto;
 }
 
 input#entrar:hover {
-background-color: #2D6462;  
+ background-color: #2D6462;  
 }
 
  p#esqueci {
+  
   text-align: center;
   color: #53AAA7;
   background-color: rgb(255, 255, 255);
-
-  width: 210px;
-  height: 30px;
   border: 1px solid #53AAA7;
   border-radius: 5px;
-  display: block;
-  margin: auto;
-  }
+  font-size: 0.8em;
+  padding: 10px 7px 0px 10px; 
 
-  a {
-    text-decoration: none;
-  }
+ width: 84.5%;
+ height: 30px;
 
-  p#esqueci:hover {
-  background-color: #6CD3CF;  
-  border: 1px solid #6CD3CF;
-  color: white;
-  }
+ 
+ display: block;
+ margin: auto;
+}
+
+a {
+ font-size: 1.2em;
+ text-decoration: none;
+}
+
+p#esqueci:hover {
+ background-color: #6CD3CF;  
+ border: 1px solid #6CD3CF;
+ color: white;
+}

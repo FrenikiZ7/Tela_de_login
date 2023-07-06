@@ -1,0 +1,43 @@
+body {
+ height: 100vw;
+ background-image: linear-gradient(to bottom,#5F2C82, #49A09D);
+ background-repeat: no-repeat;
+ overflow-y: hidden;
+}
+
+main {
+  width: 80vw;
+}
+
+div#imagem {
+  display: inline-block;
+  border-radius: 15px 0px 0px 15px;
+  width: 35%;
+  height: 300px;
+}
+
+div#form {
+ display: inline-block;
+ position: absolute;
+ border-radius: 0px 15px 15px 0px;
+}
+
+div#form p#boasvindas {
+  font-size: 0.9em;
+}
+
+div#login {
+  width: 97%;
+}
+
+input#email,#senha {
+  width: 91%;
+}
+
+input#entrar {
+  width: 96%;
+}
+
+p#esqueci {
+  width: 92%;
+}

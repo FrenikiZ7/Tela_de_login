@@ -5,36 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
-  <link rel="stylesheet" href="estilos/mainstyle.css">
-
+  <link rel="stylesheet" href="estilos/mainstyle.css" media="screen">
+  <link rel="stylesheet" href="estilos/tablet.css" media="Screen and (min-width: 768px) and (max-width: 992px)">
+  <link rel="stylesheet" href="estilos/pcstyle.css" media="Screen and (min-width: 992px)">
+  
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,1,0" />
+ 
+
 </head>
 <body>
 
  <main>
 
    <div id="imagem">
-  
    
    </div>
 
 
    <div id="form">
+
      <h1>Login</h1>
-     <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+     <p id="boasvindas">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
      
      <form method="post">
       
       <div id="login">
 
         <div class="enfeites">
-         <span id=simbolos class="material-symbols-sharp">person</span>  
-         <input type="email" id="email" name="email" autocomplete="email" required  placeholder="Seu e-mail">
+          <span id=simbolos class="material-symbols-sharp">person</span>  
+          <input type="email" id="email" name="email" autocomplete="email" required  placeholder="Seu e-mail">
         </div>
-      <hr>
+
+         <hr>
+
         <div class="enfeites">
-          <span id=simbolos2 class="material-symbols-sharp">vpn_key</span>
-          <input type="password" id="senha" name="senha" autocomplete="current-password" minlength="8" required placeholder="Sua senha">
+           <span id=simbolos2 class="material-symbols-sharp">vpn_key</span>
+           <input type="password" id="senha" name="senha" autocomplete="current-password" minlength="8" required placeholder="Sua senha">
         </div>
         
       </div>
